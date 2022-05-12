@@ -53,12 +53,12 @@ public class Emp {
 				String u=sc.next();
 				v[i]=new Teacher(p,q,r,s,t,u);
 				}
-				
+				System.out.println("***Details of Employees***");
+				System.out.println("\n");
 				for(i=0;i<count;i++){
 				v[i].display();
 				}
 			}
 	 }
-
 
 
